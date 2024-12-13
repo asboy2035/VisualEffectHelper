@@ -14,6 +14,5 @@ struct VisualEffectHelperApp: App {
             ResponsiveGridView()
         }
         .windowStyle(HiddenTitleBarWindowStyle())
-        .windowResizability(.contentSize)
     }
 }
