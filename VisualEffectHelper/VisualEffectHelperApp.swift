@@ -11,7 +11,9 @@ import SwiftUI
 struct VisualEffectHelperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ResponsiveGridView()
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
+        .windowResizability(.contentSize)
     }
 }
